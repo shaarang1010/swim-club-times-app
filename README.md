@@ -21,3 +21,17 @@ The athletes can track their PB's based on events, distance and meets.
 - Open API generator
 
 - HyperUI
+
+### Getting Started
+
+#### Server
+
+> cd server/
+
+- Install dependencies
+
+`pipenv run install`
+
+- Start server
+
+` pipenv run python src/manage.py runserver localhost:8000`
