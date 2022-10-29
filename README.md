@@ -35,3 +35,7 @@ The athletes can track their PB's based on events, distance and meets.
 - Start server
 
 ` pipenv run python src/manage.py runserver localhost:8000`
+
+#### Modelling
+
+![Draft modelling](./models.jpg)
