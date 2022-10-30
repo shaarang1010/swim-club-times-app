@@ -5,7 +5,7 @@ from django.db import models
 
 
 class SwimMeet(models.Model):
-    id = models.UUIDField(default=uuid4, primary_key=True, editable=False)
+    meet_id = models.UUIDField(default=uuid4, primary_key=True, editable=False)
     name = models.CharField(max_length=255)
     date = models.DateField(blank=True, null=True)
     start_time = models.DateTimeField(blank=True, null=True)
