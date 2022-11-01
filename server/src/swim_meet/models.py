@@ -11,3 +11,6 @@ class SwimMeet(models.Model):
     start_time = models.TimeField(blank=True, null=True)
     end_time = models.TimeField(blank=True, null=True)
     location = models.CharField(max_length=255)
+
+    def __str__(self):
+        return self.name

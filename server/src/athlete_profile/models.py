@@ -26,3 +26,6 @@ class AthleteProfile(models.Model):
     squad = models.CharField(
         max_length=3, choices=SQUAD_OPTIONS_CHOICES, default=NOVICE)
     dob = models.DateField()
+
+    def __str__(self):
+        return f'{self.name} -{self.squad}'
